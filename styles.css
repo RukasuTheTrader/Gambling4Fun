@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+button {
+    display: block;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+label, input {
+    margin: 5px;
+}
